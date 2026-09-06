@@ -1,0 +1,17 @@
+﻿# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Sensitive files
+*.env
+*.env.*
+*.key
+*.pem
+*.token
+
+# Build/temporary files
+node_modules/
+dist/
+build/
+*.log
