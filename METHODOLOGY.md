@@ -30,7 +30,7 @@ Key requirements:
 After delivery, each build was tested manually in the browser:
 1. **Playability**: Verifying whether the 3D scene initialized, rendered, and maintained an interactive loop.
 2. **Camera Controls**: Testing orbit, strategic top-down, close settlement framing, and interface hiding to observe whether the 3D viewpoint adjusted.
-3. **Information Layout**: Evaluating whether the interface prioritized world observation or felt dominated by persistent metric panels.
+3. **Information Layout**: Evaluating whether the interface kept the 3D world central or felt dominated by persistent metric panels.
 4. **Feature Surfaces**: Checking Genesis setup, Scenario Lab, intervention menus, Chronicle timelines, and comparison views.
 5. **Data Sanity**: Checking numerical metrics across simulated years for scaling anomalies.
 

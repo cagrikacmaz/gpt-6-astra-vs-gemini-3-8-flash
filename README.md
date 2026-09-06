@@ -30,10 +30,10 @@ Core requirements included:
 
 **Same brief, radically different product interpretation.**
 
-The primary divergence was not simply graphical fidelity. When given the same specification, the models made fundamentally different product decisions:
+The primary divergence was not simply graphical fidelity. When given the same specification, the two builds diverged fundamentally in product execution:
 
-- **Astra prioritized a player-facing game experience**: The 3D world remained the visual focal point, secondary data was organized behind progressive disclosure tabs, and camera perspectives visibly shifted to match player context.
-- **Gemini prioritized an engineering dashboard**: It exposed broad feature surface area immediately, surrounding the world with dense inspection panels, but delivered a flatter visual staging and camera perspective controls that failed in manual testing.
+- **Astra's build presented the simulation primarily as a player-facing game experience**: The 3D world remained the visual focal point, secondary data was organized behind progressive disclosure tabs, and camera perspectives visibly shifted to match player context.
+- **Gemini's build presented more of the simulation state directly through dashboard-style controls and panels**: It exposed broad feature surface area immediately, surrounding the world with dense inspection panels, but delivered a flatter visual staging and camera perspective controls that failed in manual testing.
 
 ---
 
@@ -80,7 +80,7 @@ Gemini demonstrated strong functional breadth by exposing several requested syst
 | **Intervention UX** | Contextual player actions | Direct action menu | Astra emphasized player framing; Gemini emphasized system actions. |
 | **Civilization Comparison** | Tabbed inspector | Full matrix table | Gemini rendered a comprehensive multi-civilization analytics grid. |
 | **Camera Viewpoints** | Observed working in manual test | Failed / inconsistent in manual test | Astra shifted camera angles; Gemini's camera remained static. |
-| **World Staging** | 3D world dominant | Panel-heavy layout | Astra kept the world central; Gemini prioritized metric cards. |
+| **World Staging** | 3D world dominant | Panel-heavy layout | Astra kept the world central; Gemini surfaced more metric cards directly. |
 
 ---
 
@@ -96,7 +96,7 @@ Gemini demonstrated strong functional breadth by exposing several requested syst
 | **Close settlement framing** | Observed | Not observed | Reproducible test |
 | **Top-down / strategic framing** | Observed | Not functioning as expected | Reproducible test |
 | **UI can be hidden for cinematic view** | Observed | Not observed | Reproducible test |
-| **World-first layout** | Strongly observed | UI-dominant | Qualitative assessment |
+| **World-first layout** | World dominant | Panel-heavy | Qualitative assessment |
 | **Manual QA contradicted self-report** | Not observed in tested camera flow | Yes, camera functionality | Reproducible finding |
 
 ### Economic Simulation Note

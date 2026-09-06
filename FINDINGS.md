@@ -1,10 +1,10 @@
 # Detailed Findings
 
 ## 1. Product Interpretation
-The most noticeable divergence between the two builds was how each agent interpreted the product goals:
+The most noticeable divergence was how each build structured the product experience:
 
-- **GPT-6 Astra High** built around a player-facing experience. The 3D world remained the primary focal point, secondary data was placed behind tabs, and interactions were framed around player intent.
-- **Gemini 3.8 Flash High** built around a systems-engineering dashboard. It surfaced many simulation parameters directly on screen, producing broad functional coverage but higher visual density.
+- **GPT-6 Astra High's build** centered on a player-facing experience. The 3D world remained the primary focal point, secondary data was placed behind tabs, and interactions were framed around player intent.
+- **Gemini 3.8 Flash High's build** centered on a systems-engineering dashboard. It surfaced many simulation parameters directly on screen, producing broad functional coverage but higher visual density.
 
 ---
 
