@@ -1,12 +1,13 @@
 # Media Directory
 
-This directory contains visual and recorded evidence captured during manual browser evaluation of both vertical-slice builds.
+This directory contains screenshots, comparison composites, and video recordings from the manual browser evaluation.
 
-## Directory Layout
+## Layout
+- `astra/`: Screenshots from the GPT-6 Astra High build.
+- `gemini/`: Screenshots from the Gemini 3.8 Flash High build.
+- `comparisons/`: Side-by-side composites highlighting layout, intervention, and camera differences. Original captures were resized and placed side-by-side without substantive modifications.
+- `video/`: Screen recordings demonstrating manual interaction, camera behavior, and time controls.
 
-- `astra/`: High-resolution screenshots from the **GPT-6 Astra High** build.
-- `gemini/`: High-resolution screenshots from the **Gemini 3.8 Flash High** build.
-- `comparisons/`: Side-by-side comparative composites showing direct layout, intervention, and camera differences. No substantive modifications were applied to original screenshots beyond resizing and side-by-side composition.
-- `video/`: Recompressed full-motion MP4 screen recordings demonstrating browser interaction, time controls, and camera functionality.
+*Note on video files:* The original screen recordings were approximately 35 MB (Astra) and 12 MB (Gemini). The files in this repository were recompressed for practical distribution.
 
-For detailed asset annotations, see [`INDEX.md`](INDEX.md).
+See [`INDEX.md`](INDEX.md) for individual asset descriptions.

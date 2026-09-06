@@ -1,33 +1,33 @@
 # Limitations
 
-This case study documents a real-world, same-brief product-build comparison. It is explicitly **not** a controlled scientific benchmark, and should not be used to assert universal model superiority.
+This repository documents a qualitative comparison under a shared product brief. It is not a controlled scientific benchmark and should not be used to claim universal model superiority.
 
-## 1. Uncontrolled Agent Harnesses & Tooling
-The two models operated within entirely different agent environments and runtime harnesses:
-- **GPT-6 Astra High** operated within ChatGPT's agentic build environment.
-- **Gemini 3.8 Flash High** operated within Google Antigravity.
+## 1. Divergent Agent Harnesses
+The models ran in different product harnesses with different toolsets:
+- **GPT-6 Astra High** ran in ChatGPT's agentic build environment.
+- **Gemini 3.8 Flash High** ran in Google Antigravity.
 
-Differences in tool implementations, browser-automation harnesses, hidden system instructions, file-system interaction mechanisms, and context-window management directly affect autonomous execution.
+Differences in tool implementations, browser automation, system prompts, file management, and context window handling directly affected execution.
 
-## 2. Unnormalized Compute, Token Budgets, and Time
-The systems were not constrained to identical token counts, compute budgets, or wall-clock execution limits. 
-- GPT-6 Astra High reached the user's plan usage limit during the build process and was resumed after quota reset.
-- Execution speed, retry policies, model sampling parameters, and reasoning budgets were determined by the respective platforms rather than a standardized benchmark protocol.
+## 2. Unnormalized Compute and Time
+Compute resources, token budgets, and runtime duration were not controlled:
+- GPT-6 Astra High reached plan usage limits mid-build and resumed after a quota reset.
+- Sampling parameters, internal retries, and reasoning budgets were managed by the respective platforms rather than a standardized harness.
 
-## 3. Single-Run Sample Size
-Each system's output represents a single qualitative product-generation run. Autonomous agent behavior exhibits stochastic variance across runs; a single vertical slice does not represent the entire distribution of potential outcomes.
+## 3. Single Qualitative Run
+Each build represents a single qualitative run. Autonomous agent behavior varies between runs; this vertical slice does not characterize the full distribution of either system's capabilities.
 
-## 4. Subjective Design Judgments vs. Objective QA
-While interaction flaws (such as non-responsive camera perspective shifts) are directly observable facts, evaluations of art direction, aesthetic taste, typography, and visual hierarchy necessarily involve qualitative human judgment.
+## 4. Subjective vs. Reproducible Evidence
+Interaction results (such as whether the camera perspective shifted when buttons were clicked) are directly reproducible from the recorded sessions. Aesthetic assessments—including art direction, layout balance, and color palette—reflect qualitative engineering judgment.
 
-## 5. Absence of Blinded Review
-The reviewer was aware of which model produced which build during interaction testing, screenshot capture, and qualitative analysis.
+## 5. Reviewer Context
+The reviewer evaluated both builds with knowledge of which model produced each artifact. No blinded evaluation protocol was applied.
 
-## 6. Simulation Correctness Remains Open
-Neither build underwent an exhaustive code-level simulation audit for long-run economic or demographic equilibrium. While visual plausibility and immediate causal feedback were tested, deeper state correctness (such as runaway compounding or invariant violations) requires dedicated formal verification.
+## 6. Simulation Correctness Was Not Formally Audited
+Visual activity and Chronicle entries were manually observed, but long-term economic and demographic invariants were not verified through formal code audits. Apparent plausibility in a brief test session does not guarantee mathematical stability or simulation depth.
 
-## 7. Proprietary Source Code Excluded
-Because the commercial game source code is withheld, this public repository does not evaluate lines of code, static analysis lints, architectural unit-test coverage, or runtime profiling data.
+## 7. Proprietary Code Withheld
+Because the underlying game source code is not public, this comparison does not evaluate line-by-line code architecture, test coverage, or runtime profiling.
 
 ## 8. Fictional Simulation Domain
-The product brief specifies a fictional civilization simulation. Societal behaviors, historical events, and ideological developments are game mechanics and should not be interpreted as models of real-world historical or political phenomena.
+The product brief specifies a fictional civilization simulation. Societal behaviors, historical events, and ideological developments are game mechanics and do not model real-world political or historical dynamics.

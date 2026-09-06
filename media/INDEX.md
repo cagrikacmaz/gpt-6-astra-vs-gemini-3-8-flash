@@ -1,30 +1,30 @@
 # Media Index
 
-Complete inventory of evaluation assets included in this case study:
+Inventory of evaluation media included in this repository:
 
-## Side-by-Side Comparisons (`media/comparisons/`)
-- `01-main-world.jpg`: Composite comparing overall world staging, landscape geometry, and UI footprint.
-- `02-intervention.jpg`: Composite comparing player intervention interaction design and copywriting.
-- `03-camera-perspective.jpg`: Composite comparing camera perspective shifting and framing behavior.
+## Comparisons (`media/comparisons/`)
+- `01-main-world.jpg`: Staging comparison showing Astra's full-viewport world vs. Gemini's panel-heavy interface.
+- `02-intervention.jpg`: Interaction comparison showing Astra's player-intent framing vs. Gemini's direct action menu.
+- `03-camera-perspective.jpg`: Viewpoint comparison showing Astra's multi-angle framing vs. Gemini's fixed camera perspective.
 
 ## GPT-6 Astra High (`media/astra/`)
-1. `astra-main-world.png`: Primary overview featuring progressive UI tabs and naturalistic island terrain.
-2. `astra-settlement-view.png`: Close-up camera framing inspecting architectural structures nestled into terrain.
-3. `astra-strategic-view.png`: Overhead cartographic / strategic top-down camera perspective.
-4. `astra-cinematic-ui-hidden.png`: Clean world observation mode with all UI overlays hidden.
-5. `astra-chronicle.png`: Historical narrative chronicle presenting emergent events as annals.
-6. `astra-intervention.png`: Player intervention dialog ("Change one thing") illustrating narrative intent.
-7. `astra-cinematic-dark.png`: Night / low-light atmospheric presentation of the simulation.
+1. `astra-main-world.png`: Main view featuring island terrain and progressive UI tabs.
+2. `astra-settlement-view.png`: Camera framing focused on close-up settlement structures.
+3. `astra-strategic-view.png`: Overhead top-down strategic perspective.
+4. `astra-cinematic-ui-hidden.png`: Unobstructed world view with interface hidden.
+5. `astra-chronicle.png`: Historical chronicle presenting emergent events as narrative annals.
+6. `astra-intervention.png`: Player intervention dialog ("Change one thing").
+7. `astra-cinematic-dark.png`: Night lighting pass over the simulated island.
 
 ## Gemini 3.8 Flash High (`media/gemini/`)
-1. `gemini-main-world.png`: Primary simulation screen with persistent metric panels and cyan/purple HUD.
-2. `gemini-scenario-lab.png`: Curated Scenario Lab presets for divergent starting conditions.
-3. `gemini-scenario-builder.png`: Granular parameter slider interface for custom scenario creation.
-4. `gemini-natural-language-what-if.png`: Natural-language prompt interface for experimental conditions.
-5. `gemini-genesis.png`: Multi-step world generation wizard configuring initial parameters.
-6. `gemini-intervention.png`: Direct parameter intervention control panel.
-7. `gemini-comparison.png`: Side-by-side civilization statistics grid, displaying Year 117 large wealth values.
+1. `gemini-main-world.png`: Main view featuring central terrain flanked by inspection cards and HUD.
+2. `gemini-scenario-lab.png`: Curated presets in the Scenario Lab.
+3. `gemini-scenario-builder.png`: Granular parameter slider interface in the Scenario Builder.
+4. `gemini-natural-language-what-if.png`: Prompt box interface for natural-language scenario input.
+5. `gemini-genesis.png`: World creation wizard configuring initial environment parameters.
+6. `gemini-intervention.png`: Intervention panel showing available actions.
+7. `gemini-comparison.png`: Faction comparison table showing Year 117 metrics (~10^15 Wealth Reserve).
 
-## Video Demonstrations (`media/video/`)
-- `astra-demo.mp4`: Recorded manual test of camera modes (orbit, top-down, settlement), UI toggle, and time controls.
-- `gemini-demo.mp4`: Recorded manual test of UI navigation, time controls, and non-responsive camera perspective buttons.
+## Videos (`media/video/`)
+- `astra-demo.mp4`: Recorded manual test demonstrating orbit, top-down framing, settlement zoom, and UI toggle.
+- `gemini-demo.mp4`: Recorded manual test demonstrating UI navigation, time controls, and non-responsive camera buttons.
